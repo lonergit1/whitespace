@@ -87,6 +87,9 @@ p {
   padding: 80px 16px;
   background-color: white;
 }
+.work {
+  width: 288px;
+}
 .text {
   font-family: "Inter", sans-serif;
   font-size: 36px;
