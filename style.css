@@ -103,6 +103,28 @@ p {
   font-size: 18px;
   line-height: 30px;
   color: var(--text);
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.headline {
+  width: 288px;
+  margin-top: 50px;
+}
+.line {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+}
+.head-line {
+  letter-spacing: 0.5px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text);
+  text-align: center;
 }
 .circle {
   margin-top: 80px;
