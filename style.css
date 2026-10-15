@@ -104,3 +104,8 @@ p {
   line-height: 30px;
   color: var(--text);
 }
+.circle {
+  margin-top: 80px;
+  width: 279px;
+  height: 259px;
+}
