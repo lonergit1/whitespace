@@ -48,7 +48,7 @@ img {
 .hero-section {
   background-image: url(icon/vector.png);
   padding: 80px 16px;
-  width: 320px;
+  width: 100%;
   top: 56px;
 }
 .hero-space {
@@ -83,7 +83,7 @@ p {
   border: 1px solid var(--background-color2);
 }
 .work-management {
-  width: 320px;
+  width: 100%;
   padding: 80px 16px;
   background-color: white;
 }
