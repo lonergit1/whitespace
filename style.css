@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --background-color: blue;
+  --color: white;
+  --background-color1: #4f9cf9;
+  --background-color2: #c4defd;
+  --text: #212529;
+}
+button {
+  padding: 20px 40px;
+  margin: 20px auto 0;
+  display: block;
+  background-color: var(--background-color1);
+  color: var(--color);
+  border: none;
+  border-radius: 8px;
+  width: 232px;
+  height: 70px;
+}
+body {
+  background-image: url(icon/vector.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 24px;
+  height: 24px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.white {
+  color: var(--color);
+  font-weight: 700;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+}
+.hero-section {
+  padding: 80px 16px;
+  width: 320px;
+  top: 56px;
+}
+.hero-space {
+  width: 288px;
+}
+.space {
+  color: var(--color);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -2px;
+  font-style: bold;
+  text-align: center;
+}
+p {
+  color: var(--color);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -2px;
+  font-style: normal;
+  margin-top: 20px;
+}
+.box {
+  width: 286px;
+  height: 191px;
+  background-color: var(--background-color2);
+  margin-top: 70px;
+  border: 1px solid var(--background-color2);
+}
+.work-management {
+  width: 320px;
+  padding: 80px 16px;
+  background-color: white;
+}
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+}
+.manage {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text);
+}
