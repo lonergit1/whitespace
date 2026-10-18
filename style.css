@@ -19,10 +19,12 @@ button {
   border-radius: 8px;
   width: 232px;
   height: 70px;
+  box-sizing: border-box;
 }
 body {
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 header {
   padding: 16px;
@@ -47,12 +49,19 @@ img {
 }
 .hero-section {
   background-image: url(icon/vector.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 80px 16px;
+  box-sizing: border-box;
   width: 100%;
-  top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-space {
-  width: 288px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .space {
   color: var(--color);
@@ -61,7 +70,6 @@ img {
   font-size: 36px;
   line-height: 100%;
   letter-spacing: -2px;
-  font-style: bold;
   text-align: center;
 }
 p {
@@ -71,25 +79,30 @@ p {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: -2px;
-  font-style: normal;
   margin-top: 20px;
 }
 .box {
   width: 286px;
+  max-width: 100%;
   height: 191px;
   background-color: var(--background-color2);
-  margin-top: 70px;
+  margin: 70px auto 0;
   border: 1px solid var(--background-color2);
+  box-sizing: border-box;
 }
 .work-management {
   width: 100%;
   padding: 80px 20px;
   background-color: white;
-  top: 869px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .work {
-  width: 288px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .text {
   font-family: "Inter", sans-serif;
@@ -97,6 +110,7 @@ p {
   font-weight: 700;
   line-height: 100%;
   text-align: center;
+  color: var(--text);
 }
 .manage {
   font-family: "Inter", sans-serif;
@@ -108,8 +122,9 @@ p {
   letter-spacing: 0.5px;
 }
 .headline {
-  width: 288px;
-  margin-top: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto 0;
 }
 .line {
   font-family: "Inter", sans-serif;
@@ -117,6 +132,7 @@ p {
   font-weight: 700;
   line-height: 100%;
   text-align: center;
+  color: var(--text);
 }
 .head-line {
   letter-spacing: 0.5px;
@@ -128,7 +144,10 @@ p {
   text-align: center;
 }
 .circle {
-  margin-top: 80px;
+  display: block;
+  margin: 80px auto 0;
   width: 279px;
   height: 259px;
+  max-width: 100%;
+  object-fit: contain;
 }
