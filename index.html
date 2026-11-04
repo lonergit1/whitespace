@@ -2,70 +2,380 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Whitespace | Project Management</title>
+
+    <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Saas</title>
   </head>
+
   <body>
     <header>
       <div class="head">
-        <img src="./icon/Logo Icon.png" alt="logo" />
+        <img src="./icon/Logo Icon.png" alt="Whitespace Logo" />
         <h1 class="white">whitespace</h1>
       </div>
-      <img src="./icon/Btn.png" alt="" />
+
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#resources">Resources</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+
+      <button class="login-btn">Login</button>
+      <button class="header-btn">Try Whitespace Free →</button>
     </header>
+
     <section class="hero-section">
-      <div class="hero-space">
-        <h1 class="space">Get More Done with whitespaces</h1>
-        <p>
-          Project management software that enables your teams to collaborate,
-          plan, analyze and manage everyday tasks
-        </p>
-      </div>
-      <button>Try TasKey Free &rarr;</button>
-      <div class="box"></div>
-    </section>
-    <section class="work-management">
-      <div class="work">
-        <h1 class="text">Project Management</h1>
-        <p class="manage">
-          Images, videos, PDFs and audio files are supported. Create math
-          expressions and diagrams directly from the app. Take photos with the
-          mobile app and save them to a note.
-        </p>
-      </div>
-      <button>Get Started &rarr;</button>
-      <div class="box"></div>
-      <div class="headline">
-        <h1 class="line">Work together</h1>
-        <p class="head-line">
-          With whitepace, share your notes with your colleagues and collaborate
-          on them. You can also publish a note to the internet and share the URL
-          with others.
-        </p>
-      </div>
-      <button>Try it now &rarr;</button>
-      <div>
-        <img class="circle" src="./icon/Work Together Image.png" alt="" />
+      <div class="hero-content">
+        <div class="hero-space">
+          <h1 class="space">Get More Done with whitespace</h1>
+
+          <p>
+            Project management software that enables your teams to collaborate,
+            plan, analyze and manage everyday tasks.
+          </p>
+
+          <button>Try TasKey Free →</button>
+        </div>
+
+        <div class="box hero-box"></div>
       </div>
     </section>
+
+    <section class="work-management" id="products">
+      <div class="management-row">
+        <div class="work">
+          <h1 class="text">Project Management</h1>
+
+          <p class="manage">
+            Images, videos, PDFs and audio files are supported. Create math
+            expressions and diagrams directly from the app. Take photos with the
+            mobile app and save them to a note.
+          </p>
+
+          <button>Get Started →</button>
+        </div>
+
+        <div class="box management-box"></div>
+      </div>
+
+      <div class="together-row" id="solutions">
+        <div class="circle-container">
+          <img
+            class="circle"
+            src="./icon/Work Together Image.png"
+            alt="People working together"
+          />
+        </div>
+
+        <div class="headline">
+          <h1 class="line">Work together</h1>
+
+          <p class="head-line">
+            With whitespace, share your notes with your colleagues and
+            collaborate on them. You can also publish a note to the internet and
+            share the URL with others.
+          </p>
+
+          <button>Try it now →</button>
+        </div>
+      </div>
+    </section>
+
     <section class="customize-section">
-      <div class="Customize">
-        <h1 class="custom">Use as Extension</h1>
-        <p class="paragraph">
-          Customize thwe app with the plugins, custom themes and multiple text
-          editors (Rich Text or Markdown). Or create your own scripts and
-          plugins using Extension API.
+      <div class="customize-content">
+        <div class="Customize">
+          <h1 class="custom">Use as Extension</h1>
+
+          <p class="paragraph">
+            Customize the app with plugins, custom themes and multiple text
+            editors (Rich Text or Markdown). Or create your own scripts and
+            plugins using Extension API.
+          </p>
+
+          <button>Try TasKey Free →</button>
+        </div>
+
+        <div class="box extension-box"></div>
+      </div>
+    </section>
+
+    <section class="custom-needs">
+      <div class="box customize-box"></div>
+
+      <div class="custom-needs-content">
+        <h1>Customise it to your needs</h1>
+
+        <p>
+          Customise the app with plugins, custom themes and multiple text
+          editors. Create a workspace that suits your team's needs.
+        </p>
+
+        <button>Let's Go →</button>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+      <div class="section-heading">
+        <h1>Choose Your Plan</h1>
+
+        <p>
+          Whether you want to get organized, keep your personal life on track,
+          or boost workplace productivity, we have a plan for you.
         </p>
       </div>
-      <button>Try TasKey Free &rarr;</button>
-      <div class="box"></div>
+
+      <div class="pricing-container">
+        <div class="price-card">
+          <h2>Free</h2>
+
+          <h1>$0</h1>
+
+          <p>Capture ideas and find them quickly.</p>
+
+          <ul>
+            <li>Sync unlimited devices</li>
+            <li>10 GB monthly uploads</li>
+            <li>200 MB maximum note size</li>
+            <li>Customize Home dashboard</li>
+            <li>Connect primary Google Calendar</li>
+          </ul>
+
+          <button>Get Started</button>
+        </div>
+
+        <div class="price-card featured">
+          <h2>Personal</h2>
+
+          <h1>$11.99</h1>
+
+          <p>Keep your home and family on track.</p>
+
+          <ul>
+            <li>Sync unlimited devices</li>
+            <li>10 GB monthly uploads</li>
+            <li>200 MB maximum note size</li>
+            <li>Customize Home dashboard</li>
+            <li>Connect primary Google Calendar</li>
+          </ul>
+
+          <button>Get Started</button>
+        </div>
+
+        <div class="price-card">
+          <h2>Organization</h2>
+
+          <h1>$49.99</h1>
+
+          <p>Capture ideas and find them quickly.</p>
+
+          <ul>
+            <li>Sync unlimited devices</li>
+            <li>10 GB monthly uploads</li>
+            <li>200 MB maximum note size</li>
+            <li>Customize Home dashboard</li>
+            <li>Connect primary Google Calendar</li>
+          </ul>
+
+          <button>Get Started</button>
+        </div>
+      </div>
     </section>
+
+    <section class="everywhere-section">
+      <div class="everywhere-content">
+        <h1>Your work, everywhere you are</h1>
+
+        <p>
+          Access your notes from anywhere. Keep your files, documents and
+          important information with you wherever you go.
+        </p>
+
+        <button>Try Taskey →</button>
+      </div>
+    </section>
+
+    <section class="data-section">
+      <div class="data-content">
+        <h1>100% your data</h1>
+
+        <p>
+          The app is open source and your data stays private. You have complete
+          control over your information and how it is shared.
+        </p>
+
+        <button>Read more →</button>
+      </div>
+
+      <div class="data-image">
+        <div class="data-circle">
+          <span>100%</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsors-section" id="resources">
+      <h1>Our sponsors</h1>
+
+      <div class="sponsors-container">
+        <div class="sponsor apple">● Apple</div>
+        <div class="sponsor microsoft"><span></span> Microsoft</div>
+        <div class="sponsor slack">✣ slack</div>
+        <div class="sponsor google">Google</div>
+      </div>
+    </section>
+
+    <section class="app-section">
+      <div class="app-graphic">
+        <div class="app-circle">
+          <span>✦</span>
+          <span>✉</span>
+          <span>◎</span>
+          <span>◈</span>
+          <span>✧</span>
+          <span>✿</span>
+        </div>
+      </div>
+
+      <div class="app-content">
+        <h1>Work With Your Favourite Apps Using Whitespace</h1>
+
+        <p>
+          Whitespace works with your favourite applications. Connect your tools
+          and get more done without switching between platforms.
+        </p>
+
+        <button>Read more →</button>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <h1>What Our Clients Say</h1>
+
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <span class="quote">“</span>
+
+          <p>
+            Whitespace has completely transformed the way our team works. We are
+            more organised and productive.
+          </p>
+
+          <div class="testimonial-user">
+            <div class="user-image">JD</div>
+
+            <div>
+              <h3>John Doe</h3>
+              <small>Project Manager</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card active-card">
+          <span class="quote">“</span>
+
+          <p>
+            Whitespace is an excellent tool for managing projects and
+            collaborating with colleagues.
+          </p>
+
+          <div class="testimonial-user">
+            <div class="user-image">AS</div>
+
+            <div>
+              <h3>Anna Smith</h3>
+              <small>Team Leader</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card active-card">
+          <span class="quote">“</span>
+
+          <p>
+            A simple and effective solution for keeping everything organised in
+            one place.
+          </p>
+
+          <div class="testimonial-user">
+            <div class="user-image">MJ</div>
+
+            <div>
+              <h3>Michael Jones</h3>
+              <small>Business Owner</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="head">
+            <img src="./icon/Logo Icon.png" alt="Whitespace Logo" />
+            <h1 class="white">whitespace</h1>
+          </div>
+
+          <p>
+            Whitespace is designed to help you organise your work and improve
+            productivity.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Product</h3>
+          <a href="#">Overview</a>
+          <a href="#">Pricing</a>
+          <a href="#">Customer stories</a>
+          <a href="#">Resources</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Resources</h3>
+          <a href="#">Blog</a>
+          <a href="#">Guides</a>
+          <a href="#">Help Center</a>
+          <a href="#">Support</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Company</h3>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+          <a href="#">Partners</a>
+        </div>
+
+        <div class="footer-cta">
+          <h2>Try Whitespace today</h2>
+
+          <p>Get started with Whitespace and make your work easier.</p>
+
+          <button>Get Started →</button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Whitespace. All Rights Reserved.</p>
+
+        <div class="footer-socials">
+          <a href="#">f</a>
+          <a href="#">𝕏</a>
+          <a href="#">in</a>
+          <a href="#">◎</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
